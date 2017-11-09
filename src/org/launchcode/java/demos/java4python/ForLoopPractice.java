@@ -14,15 +14,23 @@ public class ForLoopPractice {
             print(i)
         */
 
+        for (int i = 0; i <101; i=i+2) System.out.print(i + " ");
+        System.out.println();
+
         /*
         for i in range(1,100)
             print(i)
         */
 
+        for (int i = 0; i < 100; i++) System.out.print(i + " ");
+        System.out.println();
+
         /*
         for i in range(100,0,-1)
             print(i)
         */
+
+        for (int i = 100; i > 0; i--) System.out.print(i + " ");
 
     }
 }
